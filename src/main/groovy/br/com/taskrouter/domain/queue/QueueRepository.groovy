@@ -1,8 +1,8 @@
-package br.com.taskrouter.domain.task
+package br.com.taskrouter.domain.queue
 
 import br.com.taskrouter.domain.queue.create.queue.CreateQueueCommand
 
-interface TaskRepository {
+interface QueueRepository {
 
   Queue create(CreateQueueCommand queue)
 

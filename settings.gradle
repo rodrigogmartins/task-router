@@ -6,3 +6,6 @@ pluginManagement {
 	}
 }
 rootProject.name = 'taskrouter'
+include 'src:main:domain'
+findProject(':src:main:domain')?.name = 'domain'
+
